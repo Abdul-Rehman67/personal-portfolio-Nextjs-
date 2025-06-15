@@ -5,14 +5,19 @@ import 'react-vertical-timeline-component/style.min.css';
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import {
-  VerticalTimeline,
-  VerticalTimelineElement,
+  VerticalTimeline as RawVerticalTimeline,
+  VerticalTimelineElement as RawVerticalTimelineElement,
 } from 'react-vertical-timeline-component';
+
 
 import { Icons } from '@/components/icons';
 import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 import { experiencesData } from '@/lib/data';
+
+
+const VerticalTimeline = RawVerticalTimeline as unknown as React.FC<any>;
+const VerticalTimelineElement = RawVerticalTimelineElement as unknown as React.FC<any>;
 
 export const Experience = () => {
   const { ref, inView } = useInView({ triggerOnce: true });
