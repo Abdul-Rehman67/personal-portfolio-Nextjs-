@@ -16,26 +16,26 @@ export const Intro = () => {
       id="home"
       className="my-10 flex scroll-mt-96 flex-col items-center gap-4 text-center sm:mt-20"
     >
-      <motion.a
+      {/* <motion.a
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           type: 'tween',
           duration: 0.2,
         }}
-        href="https://github.com/Skolaczk/next-starter"
+        href="https://github.com/abdul-rehman67"
         className="bg-muted rounded px-3 py-1 text-sm font-medium"
       >
         🎉
         <span className="ml-3">Check out my new project</span>
-      </motion.a>
-      <motion.h1
+      </motion.a> */}
+      <motion.h3
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-3xl font-bold leading-tight tracking-tighter sm:text-4xl"
+        className="text-md font-bold leading-tight tracking-tighter sm:text-4xl"
       >
-        Front-end developer with a passion for design
-      </motion.h1>
+        Creating Intuitive Web Experiences That Work and Wow
+      </motion.h3>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -44,8 +44,7 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hello, I&apos;m Michał. I am front-end developer from Poland. I enjoy
-        building sites and apps. My focus is React (Next.js).
+        Hi, I'm Abdul Rehman Shaikh, a Software Engineer with 4 years of experience in building scalable, user-focused web applications.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -66,13 +65,13 @@ export const Intro = () => {
           className="hidden sm:flex"
           asChild
         >
-          <a href="/michalskolak.pdf" download>
+          <a href="/AbdulRehman.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
         <Button variant="secondary" size="icon" asChild>
           <a
-            href="https://www.linkedin.com/in/micha%C5%82-skolak-06905524b"
+            href="https://www.linkedin.com/in/abdul-rehman-shaikh-216419193/"
             aria-label="Linkedin"
             download
           >
@@ -80,7 +79,7 @@ export const Intro = () => {
           </a>
         </Button>
         <Button variant="secondary" size="icon" asChild>
-          <a href="https://github.com/Skolaczk" aria-label="Github">
+          <a href="https://github.com/Abdul-Rehman67" aria-label="Github">
             <Icons.github className="size-6" />
           </a>
         </Button>

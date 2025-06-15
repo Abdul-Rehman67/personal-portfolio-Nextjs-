@@ -25,7 +25,7 @@ export const Experience = () => {
         content="Professional experience that I have accumulated over several years."
       />
       <VerticalTimeline lineColor="hsl(var(--muted))">
-        {experiencesData.map(({ title, description, location, date }) => (
+        {experiencesData.map(({ title, description, location, date,company }) => (
           <VerticalTimelineElement
             key={title}
             visible={inView}
@@ -46,6 +46,7 @@ export const Experience = () => {
             <h3 ref={ref} className="font-medium">
               {title}
             </h3>
+            <p className="!mt-0 !font-normal">{company}</p>
             <p className="!mt-0 !font-normal">{location}</p>
             <p className="text-muted-foreground !mt-1 !font-normal">
               {description}

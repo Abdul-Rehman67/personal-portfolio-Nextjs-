@@ -21,21 +21,12 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I&apos;m Michał Skolak, I&apos;m a front-end developer from Poland.
-          I&apos;ve been learning programming for over 3 years. After I started
-          high school, I decided to pursue my passion for programming. My
-          favorite part of programming is the problem-solving aspect. I love the
-          feeling of finally figuring out a solution to a problem. I&apos;ve had
-          the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Nest.js and Prisma. I am always looking
-          to learn new technologies.
+          I'm Abdul Rehman Shaikh, a Software Engineer with 4+ years of experience in designing, developing, and deploying scalable web applications. I specialize in full-stack development, with hands-on experience using technologies like React, Next.js, Node.js, Express, MongoDB, SQL, NestJS, and .NET.
+
         </p>
         <p>
-          I&apos;m open to Job opportunities where I can contribute, learn and
-          grow. If you have a good opportunity that matches my skills and
-          experience then don&apos;t hesitate to contact me.
+        I have a proven track record of solving complex problems, delivering reliable solutions, and working across both frontend and backend systems. My approach combines clean, maintainable code with a strong focus on performance, usability, and scalability.
+
         </p>
       </div>
       <Skills />

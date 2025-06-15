@@ -31,7 +31,7 @@ export const Projects = ({ starsCount }: TProps) => {
       >
         <SectionHeading
           heading="My Projects"
-          content="Projects I worked on. Each of them containing its own case study."
+          content="Projects I've Built and Shipped as a Software Engineer ~ Real Code, Real Impact"
         />
       </motion.div>
       <div className="flex flex-col gap-8 md:flex-row">

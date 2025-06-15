@@ -25,48 +25,48 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/projects/socialhub.svg',
-    title: 'SocialHub',
+    image: '/projects/traderadar.png',
+    title: 'Traderadars',
     description:
-      'Next-generation social media app, built with its own backend.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'Know the market, trade smarter.',
+    technologies: ['Node.js', ' Vue.js', 'MongoDB','.NETCore','Stripe' ],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
+      preview: 'https://www.traderadars.com/',
       github: 'https://github.com/Skolaczk/SocialHub',
       githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
     },
   },
   {
-    image: '/projects/nextstarter.svg',
-    title: 'Next-starter',
-    description: 'Next.js starter template, packed with useful features.',
+    image: '/projects/xtocks.jpg',
+    title: 'Xtocks',
+    description: 'Build strategies, backtest, manage portfolios, all in one no-code trading platform.',
     technologies: [
-      'Next.js',
-      'TypeScript',
-      'Tailwind',
-      'Shadcn/ui',
-      'Next-auth',
-      'Prisma',
+      'React.js',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      '.NETCore',
+      'Stripe'
     ],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/Skolaczk/next-starter',
+      preview: 'https://xtocks.io',
+      github: 'https://github.com/abdul-rehman67',
       githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
     },
   },
   {
-    image: '/projects/audiophile.svg',
-    title: 'Audiophile',
-    description: 'Online store specializing in headphones and speakers.',
+    image: '/projects/fine.png',
+    title: 'Fine HH Digital',
+    description: 'Manage your business with ease.',
     technologies: [
       'React',
-      'Styled-components',
-      'TypeScript',
-      'Stripe',
-      'Firebase',
+      'Material UI',
+      'Node.js',
+      ,
+      'SQL',
     ],
     links: {
-      preview: 'https://audiophile-ms.netlify.app/',
+      preview: 'https://www.finehhdigital.com/',
       github: 'https://github.com/Skolaczk/Audiophile',
       githubApi: 'https://api.github.com/repos/Skolaczk/Audiophile',
     },
@@ -75,25 +75,28 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Internship at WEB-BOX',
-    location: 'Tarnobrzeg, PL',
+    title: 'Senior Software Engineer',
+    company: 'Kaispe LLC',
+    location: 'Karchi, Pakistan',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    date: '2023',
+      'At my current role, I’ve contributed to the development and maintenance of scalable SaaS solutions, including vendor management systems, auto-recruitment platforms, proof of delivery workflows, and customer-facing portals. I work closely with clients to gather requirements, design customized solutions, and ensure smooth deployment and delivery. My responsibilities also include optimizing React, Node.js, and .NET Core applications for performance, scalability, and seamless third-party integrations. In addition to hands-on development, I serve as a technical liaison, managing client communication, documentation, and driving successful end-to-end project execution.',
+    date: 'Nov 2024 - Present'
   },
   {
-    title: 'Internship at Chop-Chop',
-    location: 'Remote',
+    title: 'Software Product Engineer',
+    company: 'FOLIO3 Pvt Ltd',
+    location: 'Karchi, Pakistan',
     description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
-    date: '2024',
+      'In this role, I proactively maintained and optimized a JavaScript-based codebase to ensure high performance and reliability across applications. I implemented custom workflows tailored to client specifications, significantly improving operational efficiency. I was responsible for delivering timely bug fixes in live production environments, minimizing downtime and maintaining service continuity. Additionally, I provided technical support to international clients through JIRA and direct communication, ensuring prompt and effective resolution of issues and maintaining strong client relationships.',
+    date: 'Oct 2023 - Oct 2024
   },
   {
-    title: 'Freelancing',
-    location: 'Remote',
+    title: 'Software Engineer',
+    company: 'Dimensional Sys LLC',
+    location: 'Karachi, Pakistan',
     description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    date: '2023 - present',
+      'I collaborated closely with the team lead to plan and contribute ideas across various projects, including internal tools, chat applications, and customer success portals. My responsibilities included developing RESTful APIs using Express.js and .NET Core, as well as integrating third-party services such as Stripe for seamless payment processing. I engineered a custom job engine to efficiently ingest and process large volumes of historical data. In addition to development, I managed the production environment, handled CI/CD pipelines, provided live product support, and regularly interfaced with clients to ensure smooth delivery and post-launch success',
+    date: 'Oct 2021   - Sep 2023',
   },
 ] as const;
 

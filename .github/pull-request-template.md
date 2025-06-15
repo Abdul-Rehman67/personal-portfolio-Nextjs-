@@ -1,6 +1,6 @@
 ### Issue 😱:
 
-Closes https://github.com/Skolaczk/Portfolio/issues
+Closes https://github.com/abdul-rehman67
 
 ### What has been done ✅:
 
