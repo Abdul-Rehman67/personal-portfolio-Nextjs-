@@ -88,7 +88,7 @@ export const experiencesData = [
     location: 'Karchi, Pakistan',
     description:
       'In this role, I proactively maintained and optimized a JavaScript-based codebase to ensure high performance and reliability across applications. I implemented custom workflows tailored to client specifications, significantly improving operational efficiency. I was responsible for delivering timely bug fixes in live production environments, minimizing downtime and maintaining service continuity. Additionally, I provided technical support to international clients through JIRA and direct communication, ensuring prompt and effective resolution of issues and maintaining strong client relationships.',
-    date: 'Oct 2023 - Oct 2024
+    date: 'Oct 2023 - Oct 2024'
   },
   {
     title: 'Software Engineer',
